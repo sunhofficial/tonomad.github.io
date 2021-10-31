@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="clock"></form>
+    <div class="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <form id="loginform">
+      <input type="text" placeholder="ID를 입력해주세요" id="Id" />
+      <input type="password" placeholder="Password를 입력해주세요" id="PW" />
+      <input type="button" value="로그인" id="lgbutton" />
+    </form>
+    <div id="showwelcome" class="hidden"></div>
+    <form id="todo">
+      <input type="text" placeholder="할일을 입력해주세요" id="todoinput" size="40px" style="width: 500px;height: 50px;"/>
+      <input type="button" value="Enter" id="todoinsert" style="width: 50px;height: 50px;" />
+    </form>
+    <ul id="todolist"></ul>
+
+    <script src="clock.js"></script>
+    <script src="login.js"></script>
+    <script src="todo.js"></script>
+    <script src="img.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
